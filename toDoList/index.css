@@ -1,0 +1,37 @@
+.taskBar h1{
+    color: blueviolet;
+}
+.taskBar{
+    color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Playfair Display;
+}
+.innerDivOne{
+    border: 4px solid darkslategrey;
+    border-radius: 40px;
+}
+#addTask{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.listOfTasks{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#checkBox {
+    ;
+}
