@@ -11,22 +11,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background: whitesmoke;">
 <div class="mainContainer">
-    <div class="innerDivOne">
        <form class="taskBar">
            <h1>TO-DO LIST APP</h1>
-
-           <input id="addTask" placeholder="add task" type="text">
        </form>
-    </div>
+
     <div class="heading">
         <h2>List of tasks</h2>
     </div>
-    <div class="listOfTasks">
-        <p>Call my mum</p>
-        <input id="checkBox" type="checkbox">
+    <div class="taskLists">
+        <div class="task">
+            <p>Call my mum</p>
+            <div id="actions">
+                <input class="checkBox" placeholder="completed" type="checkbox">
+                <button class="delete">Delete</button>
+            </div>
+        </div>
     </div>
+    <form class="addTask">
+        <input id="enterTask" placeholder="add task" type="text">
+        <button class="addButton">Add</button>
+    </form>
 </div>
 
 <script src="script.js"></script>

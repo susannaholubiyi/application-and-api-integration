@@ -1,37 +1,97 @@
 .taskBar h1{
-    color: blueviolet;
+    color: whitesmoke;
+}
+.mainContainer{
+    padding: 40px;
 }
 .taskBar{
-    color: darkslategrey;
+    border: 4px solid palevioletred;
+    border-radius: 40px;
+    background: darkslategrey;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: Playfair Display;
 }
-.innerDivOne{
-    border: 4px solid darkslategrey;
-    border-radius: 40px;
+.addTask{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-#addTask{
+.addTask button{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    width: 100px;
+    border: 2px solid whitesmoke;
+}
+.addTask button:hover {
+    background-color: burlywood;
+    color: darkslategrey;
+}
+#enterTask{
     width: 300px;
     height: 40px;
     padding: 10px;
     font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 30px;
 }
-.listOfTasks{
+.task{
+    list-style-type: disc;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     font-size: 24px;
+    justify-content: space-between;
+    background: white ;
 }
 .heading{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}#actions button{
+     background-color: darkslategrey;
+     color: whitesmoke;
+     cursor: pointer;
+     height: 60px;
+     padding: 10px;
+     font-size: 16px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 30px;
+     width: 100px;
+     border: 2px solid whitesmoke;
+     display: grid;
+ }
+
+.checkBox {
+    width: 40px;
+    border-radius: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#checkBox {
-    ;
+.checkBox input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#checkBox{
+   color: darkslategrey;
 }
